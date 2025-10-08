@@ -1,0 +1,44 @@
+.contacto-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 20px;
+}
+
+.contacto-form {
+  display: flex;
+  flex-direction: column; /* 🔹 Esto vuelve a poner los campos en vertical */
+  gap: 10px;
+  max-width: 400px;
+}
+
+.contacto-form input,
+.contacto-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2c2c2c;
+  color: white;
+}
+
+.contacto-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contacto-form button:hover {
+  background-color: #0056b3;
+}
+
+.mapa {
+  border: 0;
+  width: 450px;
+  height: 300px;
+  border-radius: 8px;
+}
